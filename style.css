@@ -5,7 +5,6 @@ body, html {
     font: 16px "Lato", sans-serif;
     color: #777;
     height: 100%;
-    border: 1px solid red;
 }
 
 .conteudo {
@@ -15,6 +14,12 @@ body, html {
     padding: 50px 80px;
 }
 
+.social-network, a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+}
 
 h3 {
     text-transform: uppercase;
@@ -22,11 +27,20 @@ h3 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 /* EFEITO PARALLAX */
 
-.caixa1, .caixa2 {
-    border: 1px solid red;
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    position: relative;
     height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .caixa1 {
@@ -35,4 +49,25 @@ h3 {
 
 .caixa2 {
     background-image: url(imagens/img2.jpg);
+}
+
+.caixa3 {
+    background-image: url(imagens/img3.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
