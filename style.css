@@ -2,7 +2,7 @@
 
 body, html {
     margin: 0;
-    font: 16px "Lato", sans-serif;
+    font: 16px 'Lato', sans-serif;
     color: #777;
     height: 100%;
 }
@@ -15,10 +15,11 @@ body, html {
 }
 
 .social-network, a {
+    font: 18px 'Lato', sans-serif;
     text-align: center;
-    text-transform: uppercase;
     color: #111;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -30,7 +31,6 @@ h3 {
 p {
     margin-bottom: 20px;
 }
-
 /* EFEITO PARALLAX */
 
 .caixa1, .caixa2, .caixa3, .caixa4 {
