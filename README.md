@@ -1,3 +1,4 @@
 # hi-imleo
-(not finished)
-a personal site, where i show me for the world
+## I really don't know if this is ready or not.
+
+A personal site, where I show something about me.
